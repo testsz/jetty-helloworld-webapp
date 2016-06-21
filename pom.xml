@@ -10,7 +10,7 @@
   <name>Jetty HelloWorld WebApp</name>
   
   <properties>
-      <jettyVersion>9.3.10-SNAPSHOT</jettyVersion>
+      <jettyVersion>9.3.9.v20160517</jettyVersion>
   </properties>
 
   <dependencies>
