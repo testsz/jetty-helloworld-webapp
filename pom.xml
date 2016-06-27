@@ -1,16 +1,16 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" 
-         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
-  
+
   <modelVersion>4.0.0</modelVersion>
+  <groupId>org.example</groupId>
+  <artifactId>hello-world</artifactId>
+  <version>0.1-SNAPSHOT</version>
   <packaging>war</packaging>
-  <groupId>com.example</groupId>
-  <artifactId>jetty-helloworld-webapp</artifactId>
-  <version>1.0</version>
   <name>Jetty HelloWorld WebApp</name>
-  
+
   <properties>
-      <jettyVersion>9.2.17.v20160517</jettyVersion>
+      <jettyVersion>9.3.10-SNAPSHOT</jettyVersion>
   </properties>
 
   <dependencies>
@@ -31,4 +31,5 @@
       </plugin>
     </plugins>
   </build>
+
 </project>
